@@ -13,7 +13,7 @@ function Person() {
    this.grade=ko.observable("");
    
     this.totalScoreResult = ko.computed(function () {
-        return parseInt(this.test1())+ parseInt(this.test2())+parseInt(this.test3())+parseInt(this.test4()) ||"Total Score"   }, this);
+        return ((parseInt(this.test1())+ parseInt(this.test2())+parseInt(this.test3())+parseInt(this.test4()))/120)*100 ||"Total Score"   }, this);
 
         this.totalGrade = ko.computed(function () {
             this.myScore=this.totalScoreResult();
@@ -33,9 +33,13 @@ function Person() {
                    {
                     this.grade('A'); 
                   } 
-                  else if(this.myScore>=80 && this.myScore<100)
+                  else if(this.myScore>=80 && this.myScore<=100)
                   {
                     this.grade('A+');
+                  }  
+                  else if(this.myScore>120)
+                  {
+                    this.grade("Total score should be 120 only");
                   }  
                   else{
                     this.grade('Grade');
