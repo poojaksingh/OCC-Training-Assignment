@@ -1,0 +1,54 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Lobster+Two&display=swap');
+.navList{
+    display: table-cell;  
+    padding-right: 30px;
+    padding-left: 30px;
+    color: black;
+    font-size: 20px;
+    
+}
+.footer-style{
+background-color: maroon;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 2%;
+color: white;
+}
+.nav-style{
+    background-color: maroon;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.header{
+    font-size: 60px;
+    font-family: 'Courgette', cursive;
+    padding-bottom: 15px;
+    margin-right: 5%;
+    color: maroon;
+}
+
+.main-section{
+    
+    margin-left: 10% !important;
+}
+.logo{
+   margin-left: 20%;
+}
+.mainArticle{
+    float: left;
+}
+
+
+
+ .mainHeader{
+    margin-left: 35%;
+    margin-right: 10%;
+ }
+  
+    .styleHeading{
+        font-family: 'Courgette', cursive;
+        color: maroon;
+    }
+   

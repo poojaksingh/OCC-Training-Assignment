@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Mastek Profile Page</title>
+      <script src="Js/main.js"></script>
+      <link rel="stylesheet" href="Css/style.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+         crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+         integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+         crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+         crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <div class="continer-fluid">
+         <div class="container">
+            <button class="openbtn float-left mt-2 px-3 mr-2 d-lg-none" onclick="openNav()">☰</button>
+            <div id="mySidepanel" class="sidepanel">
+               <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+               <a href="#">Masteknet Home</a>
+               <a href="#">Applications</a>
+              
+               <a onclick="DropDownList_0()">Corporate Functions 
+                  <i class="fa fa-caret-down"></i>
+               </a>
+                <div id="ListInSideNav_0" class="dropdown-container">
+                  <a href="#">Company secretary</a>
+                  <a href="#">Corporate Communication</a>
+                  <a href="#">Corporate Quality Management</a>
+                  <a href="#">Corporate Quality Management</a>
+                  <a href="#">Facilities and Logistics</a>
+                  <a href="#">Finance and Accounts</a>
+                  <a href="#">Human Resource</a>
+                  <a href="#">DCT-Applications & Platforms</a>
+                  <a href="#">DCT-Infrastructure Services</a>
+                  <a href="#">DCT-Information Security</a>
+                  <a href="#">Legal & Compliance</a>
+                </div>
+               
+               <a onclick="DropDownList_1()">Collaborations Portals 
+                  <i class="fa fa-caret-down"></i>
+               </a>
+                <div id="ListInSideNav_1" class="dropdown-container">
+                  <a href="#">Company secretary</a>
+                  <a href="#">Corporate Communication</a>
+                  <a href="#">Corporate Quality Management</a>
+                  <a href="#">Corporate Quality Management</a>
+                  <a href="#">Facilities and Logistics</a>
+                  <a href="#">Finance and Accounts</a>
+                  <a href="#">Human Resource</a>
+                  <a href="#">DCT-Applications & Platforms</a>
+                  <a href="#">DCT-Infrastructure Services</a>
+                  <a href="#">DCT-Information Security</a>
+                  <a href="#">Legal & Compliance</a>
+                </div>
+               
+               <a onclick="DropDownList_2()">External Links 
+                  <i class="fa fa-caret-down"></i>
+               </a>
+                <div id="ListInSideNav_2" class="dropdown-container">
+                  <a href="#">Company secretary</a>
+                  <a href="#">Corporate Communication</a>
+                  <a href="#">Corporate Quality Management</a>
+                  <a href="#">Corporate Quality Management</a>
+                  <a href="#">Facilities and Logistics</a>
+                  <a href="#">Finance and Accounts</a>
+                  <a href="#">Human Resource</a>
+                  <a href="#">DCT-Applications & Platforms</a>
+                  <a href="#">DCT-Infrastructure Services</a>
+                  <a href="#">DCT-Information Security</a>
+                  <a href="#">Legal & Compliance</a>
+                </div>
+               
+               <a href="#">About Mastek</a>
+            </div>
+            <a class="navbar-brand  float-left " href="#">
+            <img src="Assets/mastek-Logo.png" alt="logo" height="60px" width="100px">
+            </a>
+            <span class="float-right mr-5 pt-3"><i class="fa fa-caret-down" aria-hidden="true"></i></span>
+            <span class="float-right mr-1 pt-3"><i class="fa fa-user-o" aria-hidden="true"></i></span>
+            <small class="float-right mr-2 pt-3">Hi,Pooja</small>
+            <div class="float-left w-50 pt-3">
+               <div class="input-group rounded">
+                  <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search"
+                     aria-describedby="search-addon" />
+                  <span class="py-1 px-1"><i class="fa fa-search"></i></span>
+                 <div  class="d-none d-md-block">
+                  <span class="float-left ml-4 pt-3" style="font-size: 20px;"><i class="fa fa-bell-o"
+                     aria-hidden="true"></i></span>
+                  <span class="float-left ml-4 pt-3" style="font-size: 20px;"><i class="fa fa-calendar"
+                     aria-hidden="true"></i></span>
+                  <span class="float-left ml-4 pt-3">
+                  <img src="Assets/india-flag.png" alt="flag" srcset="" height="25px" width="30px">
+                  </span>
+                 </div>
+               </div>
+              
+            </div>
+            <!-- here is collapse three dots -->
+            
+            
+            <button  class="threeDot float-left mt-2 px-3 mr-2 d-md-none" onclick="ThreeDots()"><i class="fa fa-ellipsis-v" aria-hidden="true"></i></button>
+            
+            <div  id="Overlay">
+               <div class="row">
+                 <div class="col-sm-12">
+                  <span class="float-left ml-4 pt-3" style="font-size: 20px;"><i class="fa fa-bell-o"
+                     aria-hidden="true"></i></span>
+                  
+                 </div>
+                 <div class="col-sm-12">
+                  <span class="float-left ml-4 pt-3" style="font-size: 20px;"><i class="fa fa-calendar"
+                     aria-hidden="true"></i></span>
+                  
+                 </div>
+                 <div class="col-sm-12">
+                  <span class="float-left ml-4 pt-3">
+                     <img src="Assets/india-flag.png" alt="flag" srcset="" height="25px" width="30px">
+                     </span>
+                 </div>
+               </div>
+              </div>
+            
+            <!-- here is collapse three dots -->
+            <div style="clear: both;"></div>
+           
+         </div>
+      </div>
+      <div class="container links-Tab pl-5">
+         <nav class="navbar navbar-expand-lg navbar-light">
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+               <div class="dropdown mr-1">
+                  <button class="dropbtn">Applications
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                  </div>
+               </div>
+               <div class="dropdown mr-1">
+                  <button class="dropbtn">Corporate Functions
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                  </div>
+               </div>
+               <div class="dropdown mr-1">
+                  <button class="dropbtn">Collaborations Portals
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                  </div>
+               </div>
+               <div class="dropdown mr-1">
+                  <button class="dropbtn">External Links
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                  </div>
+               </div>
+               <div class="dropdown mr-1">
+                  <button class="dropbtn">About Mastek
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                  </div>
+               </div>
+               <div class="dropdown mr-1">
+                  <button class="dropbtn">Support
+                  <i class="fa fa-caret-down" aria-hidden="true"></i>
+                  </button>
+                  <div class="dropdown-content">
+                     <a href="#">Link 1</a>
+                     <a href="#">Link 2</a>
+                     <a href="#">Link 3</a>
+                  </div>
+               </div>
+            </div>
+         </nav>
+      </div>
+      <div class="py-2 my-profile-strip"
+         style="font-size: 22px; background-color:#140f5f; color:white; padding-left: 12%;">My
+         Profile
+      </div>
+      <div class="container cards-section">
+        <div class="row">
+          <div class="container banner-top my-4 py-3">
+            <input type="checkbox" id="banner" name="vehicle1" value="true" checked="true">
+            <label for="banner"> By selection the checkbox its indicates that you are aggred on the terms and
+            condition</label><br>
+         </div>
+        </div>
+        
+         <div class="container"> <button class="float-right pr-2"
+            style="background-color: rgb(206, 240, 252); font-size: small; border: none;"><i class="fa fa-file-o pr-1"
+            aria-hidden="true"></i>My Skills</button></div>
+         <br>
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="card" style=" height:600px; padding-bottom:27%;margin-top:20%; position:relative;">
+                     <div class="text-center profile-dp" style="border-radius: 50%;position:absolute;bottom:90%;"><img
+                        class="text-center" src="Assets/profile-dp.png" alt="" srcset="" height="100px" width="100px"></div>
+                     <div class="card-body mt-5">
+                        <h3 class="card-title text-center">Pooja Singh</h3>
+                        <div class="card-subtitle text-center" style="color: rgb(122, 120, 120);"><small>Software Engineer</small>
+                        </div>
+                        <div class="card1">
+                           <button class="card-icon px-2" style="border-radius: 50%; border: none;"><i class="fa fa-envelope"
+                              aria-hidden="true"></i></button>
+                           <small>Pooja.singh@mastek.com</small><br>
+                           <button class="card-icon px-2" style="border-radius: 50%; border: none;"><i class="fa fa-phone"
+                              aria-hidden="true"></i></button>
+                           <input class="input-line"></input><i class="fa fa-pencil edit-icon" aria-hidden="true"></i><br>
+                           <button class="px-2" style="border-radius: 50%; border: none; margin-top: 5%;"><i class="fa fa-mobile"
+                              aria-hidden="true"></i></button>
+                           <input class="input-line" value="7039344310" style="color: rgb(90, 87, 87); font-size: 14px;"></input><i
+                              class="fa fa-pencil edit-icon" aria-hidden="true"></i><br>
+                           <button class="card-icon px-2" style="border-radius: 50%; border: none;"><i class="fa fa-user"
+                              aria-hidden="true"></i></button>
+                           <small><b>About Me</b></small><br>
+                           <input class="input-line" style="color: rgb(90, 87, 87); font-size: 14px; padding-right: 20px;"
+                              value="Frontend/react developer"></input><i class="fa fa-pencil edit-icon" aria-hidden="true"></i><br>
+                           <button class="card-icon" style="border-radius: 50%; border: none;"><i class="fa fa-graduation-cap"
+                              aria-hidden="true"></i></button>
+                           <small><b>Certifications</b></small> <br>
+                           <input class="input-line"></input><i class="fa fa-plus-circle edit-icon" ;aria-hidden="true"></i><br>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="card" style=" height:600px;margin-top:20%; position:relative;">
+                     <div class="card-body">
+                        <span>
+                           <i style="font-size: 25px;" class="fa fa-id-card-o" aria-hidden="true">
+                              <h5 class="text-center float-right pl-2" style="color: lightslategrey;">Employment Details</h5>
+                           </i>
+                        </span>
+                        <hr>
+                        <div class="second">
+                           <div class="mb-1"><small class="q1">Employee No</small><br>
+                              <small>15087</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Service Line</small><br>
+                              <small>SL_Application Development</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Unit</small><br>
+                              <small>SL - Application Development</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Cost Center</small><br>
+                              <small>Talent Pool- Application Development-Off</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Area</small><br>
+                              <small>Mumbai</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Sub Area</small><br>
+                              <small>Mahape</small><br>
+                           </div>
+                           <div class="mb-1">
+                              <small class="q1">Grade</small><br>
+                              <div class="mb-1">
+                                 <small class="q1">Unit HR</small><br>
+                                 <div class="mb-1"><small class="q1">Date of Joining</small><br>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="card" style=" height:600px;margin-top:20%; position:relative;">
+                     <div class="card-body">
+                        <span>
+                           <i style="font-size: 25px;" class="fa fa-sitemap" aria-hidden="true">
+                              <h5 class="text-center float-right pl-2" style="color: lightslategrey;">Oragnization</h5>
+                           </i>
+                        </span>
+                        <hr>
+                        <div class="third">
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Ashank Desai</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Hiral Chandrana</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Narasimha Murthy</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Hiren R Shah</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/profile-dp.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Pooja Singh</small><br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="card" style=" height:400px;margin-top:10%; ">
+                     <div class="card-body">
+                        <span>
+                           <i style="font-size: 25px;" class="fa fa-id-card-o" aria-hidden="true">
+                              <h5 class="text-center float-right pl-2" style="color: lightslategrey;">Employment Details</h5>
+                           </i>
+                        </span>
+                        <hr>
+                        <div class="second">
+                           <div class="mb-1"><small class="q1">Employee No</small><br>
+                              <small>15087</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Service Line</small><br>
+                              <small>SL_Application Development</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Unit</small><br>
+                              <small>SL - Application Development</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Cost Center</small><br>
+                              <small>Talent Pool- Application Development-Off</small><br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="card" style=" height:400px;margin-top:10%; ">
+                     <div class="card-body">
+                        <span>
+                           <i style="font-size: 25px;" class="fa fa-id-card-o" aria-hidden="true">
+                              <h5 class="text-center float-right pl-2" style="color: lightslategrey;">Employment Details</h5>
+                           </i>
+                        </span>
+                        <hr>
+                        <div class="second">
+                           <div class="mb-1"><small class="q1">Employee No</small><br>
+                              <small>15087</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Service Line</small><br>
+                              <small>SL_Application Development</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Unit</small><br>
+                              <small>SL - Application Development</small><br>
+                           </div>
+                           <div class="mb-1"><small class="q1">Cost Center</small><br>
+                              <small>Talent Pool- Application Development-Off</small><br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="card" style=" height:400px;margin-top:10%; ">
+                     <div class="card-body">
+                        <span>
+                           <i style="font-size: 25px;" class="fa fa-sitemap" aria-hidden="true">
+                              <h5 class="text-center float-right pl-2" style="color: lightslategrey;">Oragnization</h5>
+                           </i>
+                        </span>
+                        <hr>
+                        <div class="third">
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Ashank Desai</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Hiral Chandrana</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Narasimha Murthy</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/user.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Hiren R Shah</small><br>
+                           </div>
+                           <div class="mb-2"><img src="Assets/profile-dp.png" alt="" srcset="" height="30px" width="30px">
+                              <small class="q1">Pooja Singh</small><br>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="bottom-banner container">
+            <div class="px-3 pt-3 pb-1"
+               style=" vertical-align: middle; background-color: rgb(245, 245, 151); color: gray; margin-top: 5%; font-size: 11px;">
+               <p>
+                  <strong>Disclaimer : </strong>Your privacy is important to us. Mastek uses the personal
+                  data provided by you on this form for the organizations internal processing requirement
+                  as part your employment. We will use your data for the organizations communication
+                  and notification. We will share your data with Mastek controlled affiliates and
+                  subsidiaries; with vendors working on our behalf; when required by law or to respond
+                  to legal process; to protect our customers ; to protect lives; to maintain the security
+                  of our services; and to protect the right of property or Mastek. Mastek is committed
+                  to protecting the security of your personal data. Mastek requests you to inform
+                  us about any changes to your personal data via an email to your respective Human
+                  Resource personal or by sending an email to <a href="mailto:PIIdatamodification@mastek.com">
+                  PIIdatamodification@mastek.com
+               </p>
+            </div>
+         </div>
+      </div>
+      <footer class="py-3 mt-2 text-center" style="background-color: darkgray; color: white;">
+         <h6>© Copyright 2016 - 2020. All rights reserved</h6>
+      </footer>
+   </body>
+</html>

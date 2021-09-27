@@ -1,0 +1,194 @@
+.dropbtn {
+  background-color: #f4f1f7;
+  color: rgb(19, 18, 18);
+  padding: 10px;
+  font-size: 12px;
+  border: none;
+  border-radius: 5px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #140f5f;
+  color: white;
+}
+
+.banner-top {
+  background-color: rgb(206, 240, 252);
+  color: rgb(117, 115, 115);
+  font-size: 12px;
+  border-radius: 2px;
+  border: none;
+}
+.card-icon {
+  color: black;
+  font-size: 12px;
+  padding: 5px;
+  margin-top: 5%;
+}
+.input-line {
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: lightgray;
+}
+.edit-icon {
+  color: rgb(126, 123, 123);
+}
+.q1 {
+  color: rgb(158, 154, 154);
+}
+.sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(28, 36, 107);
+  font-size: smaller;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none !important;
+  display: block;
+  font-size: smaller;
+  transition: 0.3s;
+  color: white !important;
+}
+
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: white;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(28, 36, 107);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.threeDot {
+  font-size: 15px;
+  cursor: pointer;
+  background-color: rgb(28, 36, 107);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  position: fixed;
+  top: 0;
+
+  right: 0;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+@media screen and (min-width: 992px) {
+  .profile-dp {
+    left: 35%;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+  .profile-dp {
+    left: 42%;
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 600px) {
+  .profile-dp {
+    left: 40%;
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .profile-dp {
+    left: 37%;
+  }
+}
+
+@media screen and (min-width: 340px) and (max-width: 400px) {
+  .profile-dp {
+    left: 34%;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 340px) {
+  .profile-dp {
+    left: 30%;
+  }
+}
+
+#Overlay {
+  position: fixed;
+  display: none;
+  width: 18%;
+  height: 18%;
+  align-items: center;
+  top: 0;
+  margin-top: 15%;
+  margin-right: 0%;
+  right: 0;
+  transition: ease-in;
+
+  background-color: white;
+  z-index: 2;
+  cursor: pointer;
+}
+.dropdown-container {
+  display: none;
+  background-color: rgb(112, 120, 196);
+  opacity: 0.8;
+  padding-left: 8px;
+  color: white !important;
+  font-size: smaller;
+}
+.dropdown-container.a {
+  color: white;
+}
+.arrow {
+  float: right;
+  padding-right: 8px;
+}

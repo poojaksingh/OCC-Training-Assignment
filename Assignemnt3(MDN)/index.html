@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Mozilla splash page</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      /* header and body setup */
+
+      html {
+        font-family: "Open Sans", sans-serif;
+        background: url(pattern.png);
+      }
+
+      body {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0 auto;
+        background-color: white;
+        position: relative;
+      }
+
+      /* Header styling */
+
+      header {
+        height: 150px;
+      }
+
+      header img {
+        width: 100px;
+        position: absolute;
+        right: 32.5px;
+        top: 32.5px;
+      }
+
+      h1 {
+        font-size: 50px;
+        line-height: 140px;
+        margin: 0 0 0 32.5px;
+      }
+
+      /* main section and video styling */
+
+      main {
+        background: #ccc;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      p {
+        line-height: 2;
+      }
+
+      /* further info links */
+
+      .further-info {
+        clear: left;
+        padding: 40px 0;
+        background: #c13832;
+        box-shadow: inset 0 3px 2px rgba(0, 0, 0, 0.5),
+          inset 0 -3px 2px rgba(0, 0, 0, 0.5);
+      }
+
+      .clearfix {
+        clear: both;
+      }
+
+      /* Red panda image */
+      .image-col {
+        padding-top: 2%;
+        padding-bottom: 2%;
+        padding-right: 0;
+        padding-left: 0;
+        margin: 0%;
+      }
+      .red-panda img {
+        display: block;
+        max-width: 100%;
+      }
+      .image-res {
+        width: 100%;
+        height: auto;
+      }
+      .iframe-style {
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Mozilla</h1>
+      <!-- insert <img> element, link to the small
+          version of the Firefox logo -->
+      <img src="images/firefox_logo-only_RGB.png" alt="logo" srcset="" />
+    </header>
+
+    <main>
+      <article class="container">
+        <!-- insert iframe from youtube -->
+        <div class="row">
+          <div class="col-sm-6 px-2">
+            <iframe
+              class="iframe-style"
+              src="https://www.youtube.com/embed/czEGwcZSYyo"
+              title="The New Firefox Redesign"
+              width="300"
+              height="300"
+            >
+            </iframe>
+          </div>
+          <div class="col-sm-6">
+            <h2>Rocking the free web</h2>
+
+            <p>
+              Mozilla are a global community of technologists, thinkers, and
+              builders, working together to keep the Internet alive and
+              accessible, so people worldwide can be informed contributors and
+              creators of the Web. We believe this act of human collaboration
+              across an open platform is essential to individual growth and our
+              collective future.
+            </p>
+
+            <p>
+              Click on the images below to find more information about the cool
+              stuff Mozilla does.
+              <a href="https://www.flickr.com/photos/mathiasappel/21675551065/"
+                >Red panda picture</a
+              >
+              by Mathias Appel.
+            </p>
+          </div>
+        </div>
+      </article>
+
+      <div
+        class="container-fluid text-center"
+        style="background-color: #c13832"
+      >
+        <!-- insert images with srcsets and sizes -->
+        <div class="container">
+          <div class="row text-center">
+            <div class="image-col col-xs-3">
+              <img
+                class="image-res"
+                src="images/small.png"
+                alt="firefox logo"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="image-col col-xs-3">
+              <img
+                class="image-res"
+                src="images/mozilla-dinosaur-head.png"
+                alt="firefox logo"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="image-col col-xs-3">
+              <img
+                class="image-res"
+                src="images/firefox-addons.jpg"
+                alt="firefox logo"
+                width="150"
+                height="150"
+              />
+            </div>
+            <div class="image-col col-xs-3">
+              <img
+                class="image-res"
+                src="images/firefox-removebg-preview.png"
+                alt="firefox logo"
+                width="170"
+                height="170"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="red-panda">
+        <!-- insert picture element -->
+        <picture>
+          <img src="images/red-panda.jpg" alt="panda" style="width: auto" />
+        </picture>
+      </div>
+    </main>
+  </body>
+</html>
