@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+body {
+  background-color: #ffd9009f !important;
+}
+.main-card {
+  background-color: white;
+  border-radius: 20px;
+}
+.inputBox {
+  font-size: small;
+}
+.register-div {
+  font-family: "Bree Serif", serif;
+  font-size: 20px;
+}
