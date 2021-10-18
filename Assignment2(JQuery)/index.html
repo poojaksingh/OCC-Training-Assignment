@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- js lib must be added in head part -->
+    <script src="jquery.js"></script>
+</head>
+
+<body>
+    <!-- <header>
+        <h1>header demo</h1>
+    </header>
+    <section>
+       <article>
+        jQuery CDN
+        If you don't want to download and host jQuery yourself, you can include it from a CDN (Content Delivery Network).
+        
+        Google is an example of someone who host jQuery:
+       </article> 
+    </section>
+
+    <div>
+        <label for="firstName">First Name</label>
+        <input type="text" name="firstName" id="firstName" value="" required>
+        <span id="firstNameError"></span>
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    <footer>
+        <h6> footer demo </h6>
+    </footer> -->
+
+<!-- First Form -->
+<h2>Validation form Jquery</h2>
+<form id="first_form" method="post" action="">
+  
+  
+  <form action="welcome.html" method="get" onsubmit="return validateForm()">
+    <div>
+        <label for="first_name">First Name:</label>
+        <input type="text" id="first_name" name="first_name" value="" required></input>
+      </div>
+      <div>
+        <label for="last_name">Last Name:</label>
+        <input type="text" id="last_name" name="last_name" value="" required></input>
+      </div>
+    <div>
+        <label for="male">Gender : &nbsp;</label>
+                <input type="radio" checked id="male" name="gender" value="male">
+                <label for="male">Male &nbsp; &nbsp;</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female &nbsp;&nbsp;</label><br><br>
+    </div>
+    <div>
+        <label for="city">City: &nbsp; &nbsp; &nbsp; &nbsp;</label>
+                <select name="city" id="city">
+                <option value="Mumbai">Mumbai</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Chennai">Chennai</option>
+                </select><br><br>
+    </div>
+    <div>
+        <label for="hobbies">Hobbies:</label>
+                <input type="checkbox" chec id="hobbie" name="hobbie" value="Reading">
+
+                <label for="reading">Reading</label>
+                <input type="checkbox" id="hobbie" name="hobbie" value="Dancing">
+
+                <label for="dancing">Dancing</label>
+                <input type="checkbox" id="hobbie" name="hobbie" value="Singing">
+                <label for="singing">Singing</label>
+                <input type="checkbox" id="hobbie" name="hobbie" value="Sports">
+                <label for="sports">Sports</label>
+                <span style="color: red;" id="HobbiesError"></span><br><br>
+    </div>
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" value="" required></input>
+      </div>
+    <div>
+        <label for="phoneNo">Mobile No : &nbsp; &nbsp;</label>
+        <input type="text" name="phoneNo" id="phoneNo" >
+               
+    </div>
+    <div>
+        <input type="submit" value="Submit">
+    </div>
+    </form>
+
+    <!-- <input type="submit" value="Submit" /> -->
+  </div>
+</form>
+
+    <!-- custom js code must be added just before closing of body tag -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>

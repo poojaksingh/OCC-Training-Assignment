@@ -6,10 +6,3 @@ function addItem() {
   li.appendChild(document.createTextNode(uniqueId.value));
   ul.appendChild(li);
 }
-
-function removeItem() {
-  var ul = document.getElementById("dynamic-list");
-
-  var item = document.getElementById(uniqueId.value);
-  ul.removeChild(item);
-}
