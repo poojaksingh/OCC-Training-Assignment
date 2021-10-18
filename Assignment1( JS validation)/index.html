@@ -57,6 +57,7 @@
                   class="form-control smaller-text"
                   id="usr"
                   minlength="2"
+                  required
                   placeholder=" Enter First Name"
                 />
               </div>
@@ -67,6 +68,7 @@
                   class="form-control smaller-text"
                   id="usr"
                   minlength="2"
+                  required
                   placeholder=" Enter Last Name"
                 />
               </div>
@@ -74,6 +76,7 @@
                 <select
                   class="form-control smaller-text"
                   id="sel1"
+                  required
                   name="citylist"
                   aria-placeholder="City"
                 >
@@ -87,6 +90,7 @@
                   type="tel"
                   class="form-control smaller-text"
                   id="phone number"
+                  required
                   pattern="^[789]\d{9}$"
                   placeholder="Phone Number"
                 />
@@ -94,6 +98,7 @@
               <div class="form-group">
                 <input
                   type="email"
+                  required
                   class="form-control smaller-text"
                   id="email"
                   pattern="^[a-z0-9](\.?[a-z0-9]){5,}@g(oogle)?mail\.com$"
@@ -111,6 +116,7 @@
                     id="Reading"
                     name="Reading"
                     value="Reading"
+                    required
                     checked
                   />Reading
                 </label>
@@ -178,61 +184,6 @@
         </div>
       </div>
     </div>
-    <!-- <form action="welcome.html" method="get" onsubmit="return validateForm()">
-    <div>
-        <label for="firstName">First Name</label>
-        <input type="text" name="firstName" id="firstName" value="" required>
-        <span id="firstNameError"></span>
-    </div>
-    <div>
-    <div>
-        <label for="lastName">Last Name</label>
-        <input type="text" name="lastName" id="lastName" value="" required>
-        <span id="lastNameError"></span>
-    </div>
-    <div>
-        <label for="male">Gender : &nbsp;</label>
-                <input type="radio" checked id="male" name="gender" value="male">
-                <label for="male">Male &nbsp; &nbsp;</label>
-                <input type="radio" id="female" name="gender" value="female">
-                <label for="female">Female &nbsp;&nbsp;</label><br><br>
-    </div>
-    <div>
-        <label for="city">City: &nbsp; &nbsp; &nbsp; &nbsp;</label>
-                <select name="city" id="city">
-                <option value="Mumbai">Mumbai</option>
-                <option value="Delhi">Delhi</option>
-                <option value="Chennai">Chennai</option>
-                </select><br><br>
-    </div>
-    <div>
-        <label for="hobbies">Hobbies:</label>
-                <input type="checkbox" chec id="hobbie" name="hobbie" value="Reading">
-
-                <label for="reading">Reading</label>
-                <input type="checkbox" id="hobbie" name="hobbie" value="Dancing">
-
-                <label for="dancing">Dancing</label>
-                <input type="checkbox" id="hobbie" name="hobbie" value="Singing">
-                <label for="singing">Singing</label>
-                <input type="checkbox" id="hobbie" name="hobbie" value="Sports">
-                <label for="sports">Sports</label>
-                <span style="color: red;" id="HobbiesError"></span><br><br>
-    </div>
-    <div>
-        <label for="email">Email: &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</label>
-                <input type="text" name="email" id="email" value="" required>
-                <span style="color:blue;" id="emailError"></span><br><br>
-    </div>
-    <div>
-        <label for="phoneNo">Mobile No : &nbsp; &nbsp;</label>
-                <input type="text" name="phoneNo" id="phoneNo" value="" required>
-                <span style="color:blue;" id="phoneNoError"></span><br><br>
-    </div>
-    <div>
-        <input type="submit" value="Submit">
-    </div>
-    </form> -->
 
     <script src="js/main.js"></script>
   </body>
