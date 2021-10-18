@@ -1,6 +1,12 @@
+body {
+  font-size: smaller;
+}
+.smaller-text {
+  font-size: small !important;
+}
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 body {
-  background-color: #ffd9009f !important;
+  background-color: #5a9ae49f !important;
 }
 .main-card {
   background-color: white;
@@ -12,4 +18,8 @@ body {
 .register-div {
   font-family: "Bree Serif", serif;
   font-size: 20px;
+}
+.submit-btn {
+  border-radius: 10px;
+  border: none;
 }
