@@ -1,0 +1,17 @@
+.container h1 {
+  font-size: 25px;
+  color: #e45456;
+}
+.container p {
+  font-size: 25px;
+  color: #3c7949;
+}
+.container .myclass h1 {
+  font-size: 25px;
+  color: #e45456;
+  background-color: aqua;
+}
+.container .myclass p {
+  font-size: 25px;
+  color: #3c7949;
+}
